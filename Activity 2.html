@@ -15,7 +15,7 @@
                 this.carname=Brand;
             }
             present(){
-                return "This is "+this.carname;
+                return "This is a "+this.carname;
             }
         }
         class model extends car{
@@ -24,7 +24,7 @@
                 this.mode=mode;
             }
             model(){
-                return "This is "+this.present()+ " and it's model is "+this.mode;
+                return ""+this.present()+ " and it's model is "+this.mode;
             }
         }
         c2=new model("Koenigsegg","Jesko");
